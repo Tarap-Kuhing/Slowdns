@@ -1,8 +1,8 @@
-# DNS-AGN By KHALED AGN ( ENGLISH )
+# Slowdns By Tarap-Kuhing ( ENGLISH )
 ```
-* DNS-AGN SLOWDNS SCRIPT
+* SLOWDNS SCRIPT
 ```
-![logo](https://raw.githubusercontent.com/khaledagn/DNS-AGN/main/AGN-DNS.png)
+![logo](https://raw.githubusercontent.com/Tarap-Kuhing/Slowdns/main/AGN-DNS.png)
 
 ```
 THIS IS A SCRIPT FOR AUTO INSTALLATION OF SLOWDNS (DNSTT SERVER) WITH:
@@ -23,21 +23,10 @@ THIS IS A SCRIPT FOR AUTO INSTALLATION OF SLOWDNS (DNSTT SERVER) WITH:
 
 # Installation
 ```
-rm -rf install; apt update; wget https://github.com/khaledagn/SlowDNS/raw/main/install; chmod 777 install; ./install --start
+rm -rf install; apt update; wget https://github.com/Tarap-Kuhing/Slowdns/raw/main/install; chmod 777 install; ./install --start
 
 ```
 
 
-## :octocat: Translated and Modded by KHALED AGN
-<ul>
- <li>TELEGRAM CHANNEL: https://t.me/khaledagn</li>
- <li>FACEBOOK: https://www.facebook.com/khaledagn.me</li>
- <li>INSTAGRAM: https://www.instagram.com/khaledagn</li>
- <li>TWITTER: https://www.instagram.com/khaled_agn</li>
+## :octocat: Translated and Modded by Tarap-Kuhing
  
- </ul>
- 
-
-## :octocat: Credits
-
-1. [@LaelsonCG )
