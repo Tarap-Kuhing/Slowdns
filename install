@@ -34,7 +34,7 @@ echo -e ""
 echo -e "      This script will do the installation"
 echo -e "   manager for SlowDNS connection mode."
 echo -e ""
-echo -e "         \033[1;33mInstaller made by @Laael and Modded/Translated by @KhaledAGN ❤️ \033[1;37m"
+echo -e "         \033[1;33mInstaller Modded/Translated by Tarap-Kuhing ❤️ \033[1;37m"
 echo -e "\033[1;31m════════════════════════════════════════════════════\033[0m"
 echo ""
 echo -e "DOWLOADING DEPENDENCIES..."
@@ -43,15 +43,15 @@ fun_att () {
 apt install ncurses-utils -y
 mkdir /etc/slowdns
 cd /etc/slowdns
-wget https://github.com/khaledagn/DNS-AGN/raw/main/dns-server; chmod +x dns-server
-wget https://raw.githubusercontent.com/khaledagn/DNS-AGN/main/remove-slow; chmod +x remove-slow
-wget https://raw.githubusercontent.com/khaledagn/DNS-AGN/main/slowdns-info; chmod +x slowdns-info
-wget https://raw.githubusercontent.com/khaledagn/DNS-AGN/main/slowdns-drop; chmod +x slowdns-drop
-wget https://raw.githubusercontent.com/khaledagn/DNS-AGN/main/slowdns-ssh; chmod +x slowdns-ssh
-wget https://raw.githubusercontent.com/khaledagn/DNS-AGN/main/slowdns-ssl; chmod +x slowdns-ssl
-wget https://raw.githubusercontent.com/khaledagn/DNS-AGN/main/slowdns-socks; chmod +x slowdns-socks
-wget https://raw.githubusercontent.com/khaledagn/DNS-AGN/main/slowdns; chmod +x slowdns; cp slowdns /bin/
-wget https://raw.githubusercontent.com/khaledagn/DNS-AGN/main/stopdns; chmod +x stopdns
+wget https://github.com/Tarap-Kuhing/Slowdns/raw/main/dns-server; chmod +x dns-server
+wget https://raw.githubusercontent.com/Tarap-Kuhing/Slowdns/main/remove-slow; chmod +x remove-slow
+wget https://raw.githubusercontent.com/Tarap-Kuhing/Slowdns/main/slowdns-info; chmod +x slowdns-info
+wget https://raw.githubusercontent.com/Tarap-Kuhing/Slowdns/main/slowdns-drop; chmod +x slowdns-drop
+wget https://raw.githubusercontent.com/Tarap-Kuhing/Slowdns/main/slowdns-ssh; chmod +x slowdns-ssh
+wget https://raw.githubusercontent.com/Tarap-Kuhing/Slowdns/main/slowdns-ssl; chmod +x slowdns-ssl
+wget https://raw.githubusercontent.com/Tarap-Kuhing/Slowdns/main/slowdns-socks; chmod +x slowdns-socks
+wget https://raw.githubusercontent.com/Tarap-Kuhing/Slowdns/main/slowdns; chmod +x slowdns; cp slowdns /bin/
+wget https://raw.githubusercontent.com/Tarap-Kuhing/Slowdns/main/stopdns; chmod +x stopdns
 }
 fun_bar 'fun_att'
 echo -e "CONFIGURING FIREWALL..."
