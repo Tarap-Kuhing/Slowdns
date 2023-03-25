@@ -2,7 +2,7 @@
 ```
 * SLOWDNS SCRIPT
 ```
-![logo](https://raw.githubusercontent.com/Tarap-Kuhing/Slowdns/main/AGN-DNS.png)
+![logo](https://raw.githubusercontent.com/Tarap-Kuhing/Slowdns/main/TARAP-KUHING.png)
 
 ```
 THIS IS A SCRIPT FOR AUTO INSTALLATION OF SLOWDNS (DNSTT SERVER) WITH:
