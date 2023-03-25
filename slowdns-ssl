@@ -69,7 +69,8 @@ echo ""
 echo -e "\033[1;31m ATTENTION IN THIS STAGE! \033[1;33m"
 echo ""
 cd /etc/slowdns
-echo -ne "\033[1;32m ENTER YOUR NS (NAMESERVER)\033[1;37m: "; read nameserver
+#echo -ne "\033[1;32m ENTER YOUR NS (NAMESERVER)\033[1;37m: "; read nameserver
+nameserver=`cat /root/nsdomain`
 touch infons
 echo $nameserver > infons
 set_ns () {
