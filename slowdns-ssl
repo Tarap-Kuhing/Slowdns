@@ -78,13 +78,13 @@ echo -e "               ${tyblue}           [ 2 ]  Use a admin NameServer       
 echo -e "               ${tyblue}└──────────────────────────────────────────┘${NC}"
 read -p "   Please select numbers 1-2 or Any Button(Random) : " nameserver
 echo ""
-if [[ nameserver == "1" ]]; then
+if [[ $nameserver == "1" ]]; then
 echo -rp "\033[1;32m ENTER YOUR NS (NAMESERVER)\033[1;37m: "; read nameserver
-nameserver=nameserver
+nameserver=$nameserver
 touch infons
 echo $nameserver > infons
 clear
-elif [[ nameserver == "2" ]]; then
+elif [[ $nameserver == "2" ]]; then
 nameserver=`cat /root/nsdomain`
 clear
 else
