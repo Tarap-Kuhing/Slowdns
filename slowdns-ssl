@@ -79,7 +79,7 @@ echo -e "               ${tyblue}└──────────────�
 read -p "   Please select numbers 1-2 or Any Button(Random) : " nameserver
 echo ""
 if [[ nameserver == "1" ]]; then
-echo -ne "\033[1;32m ENTER YOUR NS (NAMESERVER)\033[1;37m: "; read nameserver
+echo -rp "\033[1;32m ENTER YOUR NS (NAMESERVER)\033[1;37m: "; read nameserver
 nameserver=nameserver
 touch infons
 echo $nameserver > infons
