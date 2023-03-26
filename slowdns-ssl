@@ -88,6 +88,8 @@ elif [[ nameserver == "2" ]]; then
 nameserver=`cat /root/nsdomain`
 clear
 else
+nameserver=`cat /root/nsdomain`
+clear
 fi
 touch infons
 echo $nameserver > infons
