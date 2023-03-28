@@ -52,16 +52,16 @@ service cron restart
 service iptables reload
 service iptables restart
 }
-fun_bar 'install_pkgs'
-echo -e "CONFIGURING IPTABLES..."
-ipt_set () {
-cd /etc
-mv rc.local rc.local.bkp
-wget https://github.com/Tarap-Kuhing/Slowdns/raw/main/rc.local
-chmod +x /etc/rc.local
-systemctl enable rc-local
-systemctl start rc-local
-}
+#fun_bar 'install_pkgs'
+#echo -e "CONFIGURING IPTABLES..."
+#ipt_set () {
+#cd /etc
+#mv rc.local rc.local.bkp
+#wget https://github.com/Tarap-Kuhing/Slowdns/raw/main/rc.local
+#chmod +x /etc/rc.local
+#systemctl enable rc-local
+#systemctl start rc-local
+#}
 fun_bar 'ipt_set'
 clear
 echo ""
